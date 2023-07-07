@@ -137,9 +137,9 @@ class _HomeState extends State<Home> {
                   ElevatedButton(
                       onPressed: () {
                         if (_formKey.currentState!.validate()) {
-                          debugPrint("Música cadastrada com sucesso!");
+                          debugPrint("Turma cadastrada com sucesso!");
                           Fluttertoast.showToast(
-                              msg: "Música cadastrada com sucesso!",
+                              msg: "Turma cadastrada com sucesso!",
                               gravity: ToastGravity.CENTER,
                               backgroundColor: Colors.green);
                         }
